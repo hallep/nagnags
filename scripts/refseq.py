@@ -208,7 +208,7 @@ def add_csite_sequences():
             last 3 bases of intron
         "scen_eflank_5ss": str
             comma-separated list, 1 for each splice scenario, of the last 100 bases of the upstream exon
-        "scen_iflank_3ss": str
+        "scen_iflank_5ss": str
             comma-separated list, 1 for each splice scenario, of the first 100 bases of the intron following the upstream exon
         "csite_iflank_3ss": str
             last 100 bases of the intron (including csite_seqs)
